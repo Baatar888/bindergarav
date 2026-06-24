@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #0e7490;
+    --primary-light: #06b6d4;
+    --accent: #0891b2;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: system-ui, -apple-system, sans-serif; }
+}
